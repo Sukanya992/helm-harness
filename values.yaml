@@ -1,0 +1,12 @@
+replicaCount: 2
+
+image:
+  repository: sukanya996/web
+  tag: 05
+  pullPolicy: IfNotPresent
+
+service:
+  type: LoadBalancer
+  port: 5000
+
+resources: {}
